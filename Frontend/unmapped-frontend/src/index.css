@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* Teal Shades */
+  --color-teal-50: #E1F5EE;
+  --color-teal-100: #9FE1CB;
+  --color-teal-400: #1D9E75;
+  --color-teal-600: #0F6E56;
+  --color-teal-800: #085041;
+
+  /* Amber Shades */
+  --color-amber-50: #FAEEDA;
+  --color-amber-100: #FAC775;
+  --color-amber-400: #BA7517;
+  --color-amber-800: #633806;
+
+  /* Purple Shades */
+  --color-purple-50: #EEEDFE;
+  --color-purple-100: #CECBF6;
+  --color-purple-400: #7F77DD;
+  --color-purple-800: #3C3489;
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #f8f9fb;
+    color: #1a1a1a;
+  }
+}
